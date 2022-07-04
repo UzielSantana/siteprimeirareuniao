@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Reunião</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <section class="container2">
+        
+        <div id="textopagina2" class="textopagina2">
+         <h1> CLIQUE ABAIXO PARA GERAR SEU RELATÓRIO </h1> <br> <input action="index2.html" class="botaofinal" type="submit" value="" onclick="gerarelatorio()" />
+   
+        <script>
+            
+            function gerarelatorio() {
+         
+            document.getElementById("resposta").innerHTML=localStorage.getItem("textovalue");
+            document.getElementById("resposta2").innerHTML=localStorage.getItem("textovalue2");
+            document.getElementById("resposta3").innerHTML=localStorage.getItem("textovalue3");
+            document.getElementById("resposta4").innerHTML=localStorage.getItem("textovalue4");
+            document.getElementById("resposta5").innerHTML=localStorage.getItem("textovalue5");
+            document.getElementById("resposta6").innerHTML=localStorage.getItem("textovalue6");
+            document.getElementById("resposta7").innerHTML=localStorage.getItem("textovalue7");
+            document.getElementById("resposta8").innerHTML=localStorage.getItem("textovalue8");
+            document.getElementById("resposta9").innerHTML=localStorage.getItem("textovalue9");
+            document.getElementById("resposta10").innerHTML=localStorage.getItem("textovalue10");
+            document.getElementById("resposta11").innerHTML=localStorage.getItem("textovalue11");
+            document.getElementById("comentarios").innerHTML=localStorage.getItem("textovalue12")
+            document.getElementById("inforeuniao").innerHTML="Informações da Reunião";  
+            document.getElementById("tabelafinal").classList.add("tabelafinal");
+            document.getElementById("textopagina2").classList.add("textopagina2antes");
+            
+                        
+         
+            }
+              
+        </script>
+            
+    <br>       
+                            
+        </div>
+           
+        <div class="relatorio">
+            
+            <h1 id="inforeuniao" > </h1>
+        </br>
+            
+           
+            </br>
+            
+        </div>
+        
+        <div id="tabelafinal"  class="table">
+                <table>
+
+                        <tr> 
+                            <td class="pergunta">  Cliente fez trial?  </td> 
+                            
+                        </tr>
+
+                        <tr> 
+                            <td class="resposta" id="resposta"> resposta </td> 
+                             
+                        </tr>
+
+                        <tr> 
+                            <td class="pergunta">  Cliente contratou OKR </td> 
+                            
+                        </tr>
+
+                        <tr> 
+                        <td class="resposta" id="resposta2"> resposta </td> 
+                         
+                        </tr>
+                        <tr> 
+                            <td class="pergunta"> Cliente possuí familiaridade com OKRs? </td> 
+                            
+                        </tr>
+
+                        <tr> 
+                            <td  class="resposta" id="resposta3"> resposta </td> 
+                             
+                        </tr>
+
+                        <tr> 
+                            <td class="pergunta"> Cliente contratou Avaliação de Desempenho?</td> 
+                            
+                        </tr>
+
+                        <tr> 
+                        <td class="resposta" id="resposta4" > resposta </td> 
+                         
+                        </tr>
+                        <tr> 
+                            <td class="pergunta"> Cliente tem Avaliação de Desempenho prevista para os próximos 30 dias? </td> 
+                            
+                        </tr>
+
+                        <tr> 
+                            <td class="resposta" id="resposta5"> resposta </td> 
+                             
+                        </tr>
+
+                       
+                        <tr> 
+                        <td class="pergunta"> Cliente possuí familiaridade Avaliação de Desempenho? </td> 
+                         
+                        </tr>
+                        <tr> 
+                            <td class="resposta"  id="resposta6"> resposta </td> 
+                            
+                        </tr>
+
+                        <tr> 
+                            <td class="pergunta"> Cliente contratou Pesquisa de Engajamento? </td> 
+                             
+                        </tr>
+
+                        <tr> 
+                            <td class="resposta"  id="resposta7"> resposta </td> 
+                            
+                        </tr>
+
+                        <tr> 
+                        <td class="pergunta"> Cliente possuí familiaridade com Pesquisas de Engajamento? </td> 
+                         
+                        </tr>
+                        <tr> 
+                            <td class="resposta" id="resposta8" > resposta </td> 
+                            
+                        </tr>
+
+                        <tr> 
+                        <td class="pergunta"> Cliente possuí Canal de Comunicação interna? </td> 
+                             
+                        </tr>
+
+                        <tr> 
+                            <td  class="resposta" id="resposta9"> resposta </td> 
+                            
+                        </tr>
+
+                        <tr> 
+                            <td class="pergunta"> Cliente tem prazo apertado para implantação? </td> 
+                                 
+                            </tr>
+    
+                            <tr> 
+                                <td class="resposta"  id="resposta10"> resposta </td> 
+                                
+                            </tr>
+
+                        <tr> 
+                            <td class="pergunta">Cliente preencheu a planilha?  </td> 
+                                     
+                            </tr>
+        
+                            <tr> 
+                            <td  class="resposta" id="resposta11"> resposta </td> 
+                                    
+                        </tr>
+
+                        <tr> 
+                            <td class="pergunta"> Comentário geral </td> 
+                                     
+                            </tr>
+        
+                            <tr> 
+                            <td id="comentarios" class="resposta"> resposta </td> 
+                                    
+                        </tr>
+                       
+                        
+
+                        
+                </table>
+                
+        </div>
+        
+            
+    </section>
+
+    <footer>
+        
+        <div class="textofooter"> VOAAA PARROT!!! </div>
+        
+
+    <section>
+               
+    
+</body>
