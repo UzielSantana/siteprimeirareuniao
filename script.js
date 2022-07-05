@@ -192,7 +192,7 @@ function passavalor11() {
     
   
     else {
-       localStorage.setItem("textovalue", "não");
+       localStorage.setItem("textovalue11", "não");
   
     }
   
