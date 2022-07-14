@@ -154,13 +154,14 @@ nav a {
     font-size: 45px;
     background-color: #FBBD18;
     margin-top: -50px;
+    cursor:pointer;
 }
 .form  {
 
     margin-top: 20px;
     margin: 100px 200px;
     font-size: 25px;
-    cursor:pointer;
+    
 }
 .form input {
     
