@@ -160,6 +160,7 @@ nav a {
     margin-top: 20px;
     margin: 100px 200px;
     font-size: 25px;
+    cursor:pointer;
 }
 .form input {
     
